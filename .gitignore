@@ -1,1 +1,69 @@
+# ==========================================
+# Large Artifacts & Generated Results
+# ==========================================
+# COLMAP databases and sparse reconstructions (large binary files >150MB)
+results/
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary directories created by tempfile
+colmap_shelf_*/
+colmap_scene_*/
+temp/
+tmp/
+
+# ==========================================
+# Executables & Binaries
+# ==========================================
+*.exe
+*.dll
+*.so
+*.dylib
+Report/tectonic.exe
+
+# ==========================================
+# Reference & Course Handouts
+# ==========================================
+L16_camera_pose_triangulation_demo.ipynb
+HW3 - 3D Reconstruction.pdf
+
+# ==========================================
+# Python & Jupyter Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# Editor & OS Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# LaTeX Intermediates
+# ==========================================
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# ==========================================
+# PDFs (ignore class handout, keep final report)
+# ==========================================
 *.pdf
+!Report/HW3-Report.pdf
